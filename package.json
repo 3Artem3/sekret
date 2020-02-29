@@ -1,11 +1,14 @@
 {
-  "main": "client.js",
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
+  "main": "bot.js",
   "scripts": {
-    "start": "node ."
+    "start": "node bot.js"
   },
   "dependencies": {
-    "discord.js": "",
-    "quick.db": "^7.0.0-b20",
+    "discord.js": "11.1.0",
+     "quick.db": "^7.0.0-b20",
     "request": "^2.88.2",
     "request-promise": "^4.2.5",
     "enmap": "^5.2.4",
@@ -13,17 +16,5 @@
     "canvas": "^2.6.1",
     "node-superfetch": "^0.1.10",
     "gm": "^1.23.1"
-  },
-  "engines": {
-    "node": "10.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+  }
 }
