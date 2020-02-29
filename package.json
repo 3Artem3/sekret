@@ -1,0 +1,30 @@
+{
+  "main": "client.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "discord.js": "",
+    "quick.db": "^7.0.0-b20",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "enmap": "^5.2.4",
+    "ms": "^2.1.2",
+    "canvas": "^2.6.1",
+    "node-superfetch": "^0.1.10",
+    "gm": "^1.23.1",
+    "jimp": "^0.9.3"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
