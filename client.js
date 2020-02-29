@@ -28,12 +28,13 @@ const bot = new Discord.Client({ disableEveryone: true });
 client.commands = new Discord.Collection();
 const embed = new Discord.RichEmbed()
 
-client2.login(process.env.BOT)
+// client2.login(process.env.BOT)
 
-nitro.login(process.env.NITRO)
-loger.login(process.env.LOGER)
-dmloger.login(process.env.DMLOGER)
+// nitro.login(process.env.NITRO)
+// loger.login(process.env.LOGER)
+// dmloger.login(process.env.DMLOGER)
 
+client.login(process.env.TOKEN)
 
 client.on("message", async message => {
   if (message.content === "Мега спамвключить") {
@@ -2790,4 +2791,3 @@ client.on('messageReactionRemove', (reaction, user) => {
         });
  });*/
 
-client.login(process.env.TOKEN)
