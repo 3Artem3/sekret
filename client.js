@@ -11,7 +11,6 @@ const { inspect } = require("util");
 const db = require('quick.db');
 const ms = require("ms");
 const gm = require('gm');
-var Jimp = require('jimp');
 const Canvas = require('canvas');
 const superfetch = require('node-superfetch');
 const dbs = require('enmap');
